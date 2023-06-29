@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "nocreative",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "No creative mode",
+	"description": "Ban creative mode",
 	"authors": [
-		"Me!"
+		"SDSXC"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,14 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.sdsxc.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.sdsxc.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"nocreative.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"
